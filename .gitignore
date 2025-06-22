@@ -136,6 +136,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Project specific
+data/vectorstore/
+data/*.csv
+!data/sample_context.csv
+
 # Spyder project settings
 .spyderproject
 .spyproject
